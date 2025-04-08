@@ -3,7 +3,6 @@
 export type EducationItemType = {
     school: string
     major: string
-    department: string
     image?: string
     logo: string
     start: string
@@ -14,27 +13,24 @@ export type EducationItemType = {
   
   export const educationList: Array<EducationItemType> = [
     {
-      school: '帝国理工学院',
-      major: '交通经济学',
-      department: '土木工程与环境学院',  
+      school: 'Imperial College London',
+      major: 'Transport and Business Management',
       logo: 'college',
       start: '2020',
       end: '2021'
     },
     {
-      school: '利物浦大学',
-      major: '经济学',
-      department: '商学院', 
+      school: 'University of Liverpool',
+      major: 'Economics', 
       logo: 'college',
       start: '2018',
       end: '2020'
     },
     {
-      school: 'BUPT',
-      major: 'Automation',
-      department: '商学院',
+      school: 'Xi'an Jiaotong Liverpool University',
+      major: 'Econmics',
       logo: 'college',
-      start: '2009',
-      end: '2013'
+      start: '2016',
+      end: '2018'
     },
   ]
