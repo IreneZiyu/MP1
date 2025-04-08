@@ -27,7 +27,7 @@ export type EducationItemType = {
       end: '2020'
     },
     {
-      school: 'Xi'an Jiaotong Liverpool University',
+      school: 'Xian Jiaotong Liverpool University',
       major: 'Econmics',
       logo: 'college',
       start: '2016',
