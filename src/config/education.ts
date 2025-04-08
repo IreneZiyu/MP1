@@ -3,6 +3,7 @@
 export type EducationItemType = {
     school: string
     major: string
+    department: string
     image?: string
     logo: string
     start: string
@@ -13,11 +14,12 @@ export type EducationItemType = {
   
   export const educationList: Array<EducationItemType> = [
     {
-      school: 'Tsinghua University',
-      major: 'MBA',
+      school: '帝国理工学院',
+      major: '交通经济学',
       logo: 'college',
-      start: '2017',
-      end: '2020'
+        department: '土木工程与环境学院',
+      start: '2020',
+      end: '2021'
     },
     {
       school: 'University of Chicago',
